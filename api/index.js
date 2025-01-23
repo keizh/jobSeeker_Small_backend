@@ -2,8 +2,8 @@ require("dotenv").config();
 const express = require(`express`);
 const mongoose = require(`express`);
 const cors = require(`cors`);
-const { dbConnect } = require("./db/dbConnect");
-const { JobRouter } = require("./routes/JobRoute/JobRouter");
+const { dbConnect } = require("../db/dbConnect");
+const { JobRouter } = require("../routes/JobRoute/JobRouter");
 dbConnect();
 const app = express();
 
